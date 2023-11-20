@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>org.springframework</groupId>
-	<artifactId>gs-maven</artifactId>
+	<artifactId>mavenproject</artifactId>
 	<packaging>jar</packaging>
 	<version>0.1.0</version>
 
@@ -54,6 +54,7 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<finalName>mavenproject</finalName>
 	</build>
 
 </project>
