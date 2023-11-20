@@ -41,12 +41,12 @@ jobs:
       with:
         name: Package
         path: staging
-    - uses: mr-smithers-excellent/docker-build-push@v6
-      name: Build & push Docker image
-      dockerfile: Dockerfile
-      with:
-        image: venommeda/devops-project
-        tags: latest
-        registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        - uses: mr-smithers-excellent/docker-build-push@v6
+          name: Build & push Docker image
+          with:
+            image: venommeda/devops-project
+            tags: latest
+            registry: docker.io
+            username: ${{ secrets.DOCKER_USERNAME }}
+            password: ${{ secrets.DOCKER_PASSWORD }}
+    
