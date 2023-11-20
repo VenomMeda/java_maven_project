@@ -1,2 +1,3 @@
-# java_maven_project
-This is simple java maven project for github actions
+# Github Actions Project
+
+This is a simple java maven project to work with Github Actions for my DevOps Assignment.
